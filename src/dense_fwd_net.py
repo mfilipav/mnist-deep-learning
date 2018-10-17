@@ -8,7 +8,7 @@ with backpropagation.
 # Libraries
 import random
 import numpy as np
-import mnist_loader
+import mnist_cleanup
 import argparse
 
 
@@ -162,7 +162,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # import and pre-process data
-    training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
+    training_data, validation_data, test_data = mnist_cleanup.load_data_wrapper()
 
     # define net architecture, [784, 30, 10]
     net = DenseFwd([784, args.units, 10])
