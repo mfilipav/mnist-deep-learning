@@ -1,6 +1,6 @@
 ## NumPy implementation of deep learning functions:
 
-1. Feed-forward neural nets
+1. Feed-forward neural nets for image classification
 2. Stochastic Gradient Descent (mini-batch)
 3. Backpropagation
 
